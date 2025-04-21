@@ -1,0 +1,32 @@
+[
+    {
+        "person_name": "Zeeshan Ahmed",
+        "image_url": "/DevTeam/Zeeshan_Ahmed.jpg",
+        "role": "Head"
+    },
+    {
+        "person_name": "M. Hunain",
+        "image_url": "/DevTeam/3_o4jqsa.png",
+        "role": "CoHead"
+    },
+    {
+        "person_name": "Abdullah Azhar",
+        "image_url": "/DevTeam/Abdullah_Azhar_Khan.jpg",
+        "role": "CoHead"
+    },
+    {
+        "person_name": "Owais",
+        "image_url": "/DevTeam/1_p2rtaw.png",
+        "role": "Member"
+    },
+    {
+        "person_name": "Sahil Latif",
+        "image_url": "/DevTeam/2_m2mqek.png",
+        "role": "Deputy"
+    },
+    {
+        "person_name": "Izaan",
+        "image_url": "/DevTeam/4_hzmbil.png",
+        "role": "Member"
+    }
+]

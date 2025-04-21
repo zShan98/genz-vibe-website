@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap'); /* Example font */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gradient-to-br from-pastel-pink via-pastel-blue to-pastel-green;
+  @apply text-gray-800 font-sans;
+  min-height: 100vh;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* General smooth transition for elements */
+* {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Glossy effect helper */
+.glossy-effect {
+  @apply shadow-glossy backdrop-blur-sm border border-white border-opacity-20;
+}
+
+/* Basic page transition wrapper (more advanced needs Framer Motion etc.) */
+.page-enter {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* You might want a dedicated animation library like Framer Motion for complex page transitions */
